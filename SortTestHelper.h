@@ -21,6 +21,20 @@ namespace SortTestHelper {
         return arr;
     }
 
+    int *generateNearlyOrderedArray(int n, int swapTime) {
+        int *arr = new int[n];
+        for (int i = 0; i < n; ++i) {
+            arr[i] = i;
+        }
+        srand(time(NULL));
+        while (swapTime--) {
+            int i = rand() % n;
+            int j = rand() % n;
+            swap(arr[i], arr[j]);
+        }
+        return arr;
+    }
+
     void printArray(int arr[], int n) {
         for (int i = 0; i < n; i++) {
             std::cout << arr[i] << " ";
@@ -45,6 +59,12 @@ namespace SortTestHelper {
         clock_t endTime = clock();
         assert(isSorted(arr, n));
         std::cout << sortName << ":" << double(endTime - startTime) / CLOCKS_PER_SEC << "s\n";
+    }
+
+    int *copyIntArray(int arr[], int n) {
+        int *copy_arr = new int[n];
+        copy(arr, arr + n, copy_arr);
+        return copy_arr;
     }
 } // namespace SortTestHelper
 #endif //DEMOFORLINUX_SORTTESTHELPER_H

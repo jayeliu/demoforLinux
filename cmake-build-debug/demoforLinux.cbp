@@ -87,13 +87,19 @@
 		<Unit filename="/tmp/tmp.vq2DZKnyzH/SortTestHelper.h">
 			<Option target="demoforLinux"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/insertionsort.h">
+		<Unit filename="/tmp/tmp.vq2DZKnyzH/insertionSort.h">
 			<Option target="demoforLinux"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.vq2DZKnyzH/main.cpp">
 			<Option target="demoforLinux"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/selectionsort.h">
+		<Unit filename="/tmp/tmp.vq2DZKnyzH/mergeSort.h">
+			<Option target="demoforLinux"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.vq2DZKnyzH/selectionSort.h">
+			<Option target="demoforLinux"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.vq2DZKnyzH/shellSort.h">
 			<Option target="demoforLinux"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.vq2DZKnyzH/CMakeLists.txt">

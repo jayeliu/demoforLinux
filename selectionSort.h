@@ -15,7 +15,7 @@ void selectionSort(T arr[], int n) {
                 minIndex = j;
             }
         }
-        swap(arr[i], arr[minIndex]);
+        std::swap(arr[i], arr[minIndex]);
     }
 
 }

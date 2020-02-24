@@ -6,9 +6,33 @@
 
 #IncludeRegexTransform: 
 
+/tmp/tmp.vq2DZKnyzH/SortTestHelper.h
+iostream
+-
+ctime
+-
+string
+-
+cassert
+-
+
+/tmp/tmp.vq2DZKnyzH/insertionSort.h
+
 /tmp/tmp.vq2DZKnyzH/main.cpp
 iostream
 -
-thread
+algorithm
 -
+selectionSort.h
+/tmp/tmp.vq2DZKnyzH/selectionSort.h
+insertionSort.h
+/tmp/tmp.vq2DZKnyzH/insertionSort.h
+SortTestHelper.h
+/tmp/tmp.vq2DZKnyzH/SortTestHelper.h
+shellSort.h
+/tmp/tmp.vq2DZKnyzH/shellSort.h
+
+/tmp/tmp.vq2DZKnyzH/selectionSort.h
+
+/tmp/tmp.vq2DZKnyzH/shellSort.h
 
