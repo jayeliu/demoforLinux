@@ -8,101 +8,112 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/tmp/tmp.vq2DZKnyzH/cmake-build-debug"/>
+				<Option working_dir="D:/projects/c/demoforLinux/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/tmp/tmp.vq2DZKnyzH/cmake-build-debug"/>
+				<Option working_dir="D:/projects/c/demoforLinux/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demoforLinux">
-				<Option output="/tmp/tmp.vq2DZKnyzH/cmake-build-debug/demoforLinux" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/tmp/tmp.vq2DZKnyzH/cmake-build-debug"/>
+				<Option output="D:/projects/c/demoforLinux/cmake-build-debug/demoforLinux.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/c/demoforLinux/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 demoforLinux"/>
-					<CompileFile command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 demoforLinux"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demoforLinux/fast">
-				<Option output="/tmp/tmp.vq2DZKnyzH/cmake-build-debug/demoforLinux" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/tmp/tmp.vq2DZKnyzH/cmake-build-debug"/>
+				<Option output="D:/projects/c/demoforLinux/cmake-build-debug/demoforLinux.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/c/demoforLinux/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 demoforLinux/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 demoforLinux/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/tmp/tmp.vq2DZKnyzH/cmake-build-debug"/>
+				<Option working_dir="D:/projects/c/demoforLinux/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/tmp/tmp.vq2DZKnyzH/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/c/demoforLinux/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/SortTestHelper.h">
+		<Unit filename="D:/projects/c/demoforLinux/BinarySearch.h">
 			<Option target="demoforLinux"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/insertionSort.h">
+		<Unit filename="D:/projects/c/demoforLinux/MaxHeap.h">
 			<Option target="demoforLinux"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/main.cpp">
+		<Unit filename="D:/projects/c/demoforLinux/SortTestHelper.h">
 			<Option target="demoforLinux"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/mergeSort.h">
+		<Unit filename="D:/projects/c/demoforLinux/heapSort.h">
 			<Option target="demoforLinux"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/selectionSort.h">
+		<Unit filename="D:/projects/c/demoforLinux/indexMaxHeap.h">
 			<Option target="demoforLinux"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/shellSort.h">
+		<Unit filename="D:/projects/c/demoforLinux/insertionSort.h">
 			<Option target="demoforLinux"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.vq2DZKnyzH/CMakeLists.txt">
+		<Unit filename="D:/projects/c/demoforLinux/main.cpp">
+			<Option target="demoforLinux"/>
+		</Unit>
+		<Unit filename="D:/projects/c/demoforLinux/mergeSort.h">
+			<Option target="demoforLinux"/>
+		</Unit>
+		<Unit filename="D:/projects/c/demoforLinux/quickSort.h">
+			<Option target="demoforLinux"/>
+		</Unit>
+		<Unit filename="D:/projects/c/demoforLinux/selectionSort.h">
+			<Option target="demoforLinux"/>
+		</Unit>
+		<Unit filename="D:/projects/c/demoforLinux/shellSort.h">
+			<Option target="demoforLinux"/>
+		</Unit>
+		<Unit filename="D:/projects/c/demoforLinux/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

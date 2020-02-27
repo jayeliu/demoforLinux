@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/tmp/tmp.vq2DZKnyzH/SortTestHelper.h
+D:/projects/c/demoforLinux/BinarySearch.h
+
+D:/projects/c/demoforLinux/MaxHeap.h
+iostream
+-
+cassert
+-
+algorithm
+-
+
+D:/projects/c/demoforLinux/SortTestHelper.h
 iostream
 -
 ctime
@@ -16,23 +26,41 @@ string
 cassert
 -
 
-/tmp/tmp.vq2DZKnyzH/insertionSort.h
+D:/projects/c/demoforLinux/heapSort.h
+iostream
+-
 
-/tmp/tmp.vq2DZKnyzH/main.cpp
+D:/projects/c/demoforLinux/insertionSort.h
+
+D:/projects/c/demoforLinux/main.cpp
 iostream
 -
 algorithm
 -
 selectionSort.h
-/tmp/tmp.vq2DZKnyzH/selectionSort.h
+D:/projects/c/demoforLinux/selectionSort.h
 insertionSort.h
-/tmp/tmp.vq2DZKnyzH/insertionSort.h
+D:/projects/c/demoforLinux/insertionSort.h
 SortTestHelper.h
-/tmp/tmp.vq2DZKnyzH/SortTestHelper.h
+D:/projects/c/demoforLinux/SortTestHelper.h
 shellSort.h
-/tmp/tmp.vq2DZKnyzH/shellSort.h
+D:/projects/c/demoforLinux/shellSort.h
+mergeSort.h
+D:/projects/c/demoforLinux/mergeSort.h
+quickSort.h
+D:/projects/c/demoforLinux/quickSort.h
+MaxHeap.h
+D:/projects/c/demoforLinux/MaxHeap.h
+heapSort.h
+D:/projects/c/demoforLinux/heapSort.h
+BinarySearch.h
+D:/projects/c/demoforLinux/BinarySearch.h
 
-/tmp/tmp.vq2DZKnyzH/selectionSort.h
+D:/projects/c/demoforLinux/mergeSort.h
 
-/tmp/tmp.vq2DZKnyzH/shellSort.h
+D:/projects/c/demoforLinux/quickSort.h
+
+D:/projects/c/demoforLinux/selectionSort.h
+
+D:/projects/c/demoforLinux/shellSort.h
 

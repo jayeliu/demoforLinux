@@ -5,15 +5,18 @@
 #include "SortTestHelper.h"
 #include "shellSort.h"
 #include "mergeSort.h"
+#include "quickSort.h"
+#include "MaxHeap.h"
+#include "heapSort.h"
+#include "BinarySearch.h"
 using namespace std;
 
 int main(int, char **) {
-    int n = 50000;
+    int n = 100;
     int *arr = SortTestHelper::generateRandomArray(n,0,n);
-    int *arr2=SortTestHelper::copyIntArray(arr,n);
-    SortTestHelper::testSort("insertionSort", insertionSort, arr, n);
-    SortTestHelper::testSort("mergeSort",mergeSort,arr2,n);
-    delete[] arr;
-    delete[] arr2;
+    SortTestHelper::testSort("insertionSort",insertionSort, arr, n);
+    cout<<binarySearch(arr,n,3)<<endl;
+    cout<<binarySearchDG(arr,n,3)<<endl;
+    delete[]arr;
     return 0;
 }

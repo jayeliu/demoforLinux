@@ -46,5 +46,11 @@ void __mergeSort(int arr[], int l, int r) {
 void mergeSort(int arr[], int n) {
     __mergeSort(arr, 0, n - 1);
 }
-
+void mergeSortBU(int arr[],int n){
+    for (int sz = 1; sz<=n;sz*=2) {
+        for (int i = 0; i+sz<n;i+=2*sz) {
+            __merge(arr,i,i+sz-1,min(i+2*sz-1,n-1));
+        }
+    }
+}
 #endif //DEMOFORLINUX_MERGESORT_H
